@@ -1,17 +1,109 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <link rel="stylesheet" href="./style.css">
-        <title>Ashley Yu | Web Developer</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>&#127845; Ashley Yu | Web Developer</title>
+  </head>
+  
+  <body>
+    <header id="header">
+      <nav>
+        <ul>
+          <li>
+            <a href="#header"><img src="https://img.icons8.com/small/50/3764a3/home.png" alt="Home" title="Home"></a>
+          </li>
+          <li>
+            <a href="#about"><img src="https://img.icons8.com/small/50/3764a3/user-male-circle.png" alt="About Me" title="About Me"></a>
+          </li>
+          <li>
+            <a href="#work"><img src="https://img.icons8.com/small/50/3764a3/briefcase.png" alt="Work" title="Work"></a>
+          </li>
+          <li>
+            <a href="#contact"><img src="https://img.icons8.com/small/50/3764a3/business-contact.png" alt="Contact Me" title="Contact Me"></a>
+          </li>
+        </ul>
+      </nav>
+      <section class="name-description">
+        <section>
+          <h1 class="name">Ashley Yu 
+          <br>Web Developer    
+          </h1>
+          <p class="center-p">Hey! Thanks for stopping by. If you'd like to know more about me,
+            click any of the navigation buttons to jump down to any topic that interests you. 
+          </p>
+        </section>
+      </section>
+      <section class="image-section">
+        <img src="./assets/images/laptop-g83a141016_1280.png" alt="laptop icon" title="Laptop Icon" id="computer-icon">
+      </section>
+    </header>
+    <hr>
 
-    <body>
-        <header>
-            <h1>Ashley Yu 
-            <br>Web Developer    
-            </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-            <br>do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            <br>Lorem dolor sed viverra ipsum nunc aliquet bibendum enim.</p>
-    </body>
+    <main>
+      <section id="about">
+        <h1 class="subheader">So you'd like to know more about me...</h1>
+        <section id="selfie-section">
+          <img src="./assets/images/me.jpg" alt="self photo" title="Self Photo" id="selfie">
+        </section>
+          <p class="about-description center-p">Hi I'm Ashley. I am a full-stack web developer. I can do both front-end and back-end development equally. 
+            I started coding in 2021 when I came across a youtube video explaining the wonders of coding. Since then, I've loved every second of my coding journey.
+            I am learning new things every day and I don't plan on stopping.
+          <br>As much as I'd like to call myself a coding expert, I still have an abundance amount of coding languages I need to learn.
+          I hope you'll join me on my journey to becoming an expert coder.
+          <br>Besides coding 24/7 I indulge myself with videogames, cafe-hopping (not bar-hopping... I don't like to drink), and
+          going on adventures with my lovely boyfriend. 
+          </p>
+      </section>
+      <hr>
+      <section id="work">
+        <h1 class="subheader">Work</h1>
+        <article class="projects-1-3">
+          <div class="project-image">
+            <a href="https://github.com/hiashley/Horiseon-Refactoring" target="_blank"><img src="./assets/images/digital-marketing-meeting.jpg" alt="project 1" title="Project 1"></a>
+          </div>
+          <div class="project-description">
+            <h2>Horiseon Refactoring</h2>
+            <p>I refactored the HTML and CSS code of this website to achieve web accessiblity. 
+              It needed to be more accessible to those with disablities. 
+              It would also rank higher in search engines, delivering more traffic to the site and having better search engine optimization.
+            </p>
+          </div>
+        </article>
+        <article class="project-two">
+          <div id="project-image-2">
+            <a href="#"><img src="./assets/images/coming-soon-gb63032803_640.jpg" style="height: 180px;" alt="project 2" title="Project 2"></a>
+          </div>
+          <div class="project-description">
+            <h2>Project 2</h2>
+            <p id="project-2-description">Project coming soon! Stay tuned.
+            </p>
+          </div>
+        </article>
+        <article class="projects-1-3">
+          <div class="project-image">
+            <a href="#"><img src="./assets/images/coming-soon-gb63032803_640.jpg" style="height: 180px;" alt="project 3" title="Project 3"></a>
+          </div>
+          <div class="project-description">
+            <h2>Project 3</h2>
+            <p>Project coming soon! Stay tuned.
+            </p>
+          </div>
+        </article>
+      </section>
+      <hr>
+      <section id="contact">
+          <h1 class="subheader">Contact Me</h1>
+          <div id="contact-links">
+            <a href="mailto: hiashleyyu@gmail.com" target="_blank"><img src="https://img.icons8.com/small/96/3764a3/new-post.png" alt="email" title="Email"></a>
+            <a href="https://www.linkedin.com/in/ashley-yu-aa6030224/" target="_blank"><img src="https://img.icons8.com/small/96/3764a3/linkedin.png" alt="linkedin" title="LinkedIn"></a>
+            <a href="https://github.com/hiashley" target="_blank"><img src="https://img.icons8.com/small/96/3764a3/github.png" alt="github" title="GitHub"></a>
+          </div>
+        </section>
+    </main>
+</body>
 </html>
